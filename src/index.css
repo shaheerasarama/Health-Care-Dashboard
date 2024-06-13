@@ -1,13 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  /* Colors */
+  --purple-color: #705aaa;
+  --light-grey-color: #cbc8d4;
+  --active-bg-light-color: #d8fcf7;
+  --active-bg-dark-color: #01f0d0;
+  --dark-aqua-color: #0bd984;
+  --dark-blue-color: #072635;
+  --darker-blue-color: #0c3d5d;
+  --medium-blue-color: #084c77;
+  --light-blue-color: #055a92;
+  --bright-blue-color: #006aac;
+  --sky-blue-color: #007bc7;
+  --grey-color: #707070;
+  --light-grey-bg-color: #f6f6f6;
+  --light-grey-border-color: #ededed;
+  --black-color: #000000;
+  --medium-grey-color: #878787;
+  --white-color: #ffffff;
+  --orange-color: #ff6200;
+
+  /* Font Families */
+  --primary-font-family: "Manrope";
+
+  /* Font Styles */
+  --normal-font-style: normal;
+
+  /* Font Weights */
+  --extra-bold-font-weight: 800;
+  --normal-font-weight: normal;
+  --bold-font-weight: bold;
+
+  /* Font Sizes */
+  --small-font-size: 14px;
+  --medium-font-size: 18px;
+  --large-font-size: 24px;
+
+  /* Character Spacing */
+  --normal-character-spacing: 0px;
+
+  /* Line Heights */
+  --small-line-height: 19px;
+  --medium-line-height: 24px;
+  --large-line-height: 33px;
+
+  /* Text Transformations */
+  --titlecase-text-transform: titlecase;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F6F7F8;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  background-color: #0bd984;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-title-24pt {
+  font-family: var(--primary-font-family);
+  font-style: var(--normal-font-style);
+  font-weight: var(--extra-bold-font-weight);
+  font-size: var(--large-font-size);
+  line-height: var(--large-line-height);
+  letter-spacing: var(--normal-character-spacing);
+  color: var(--dark-blue-color);
+}
+
+.inner-card-title-18pt {
+  font-family: var(--primary-font-family);
+  font-style: var(--normal-font-style);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--medium-font-size);
+  line-height: var(--medium-line-height);
+  letter-spacing: var(--normal-character-spacing);
+  color: var(--dark-blue-color);
+  text-transform: var(--titlecase-text-transform);
+}
+
+.body-emphasized-14pt {
+  font-family: var(--primary-font-family);
+  font-style: var(--normal-font-style);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--small-font-size);
+  line-height: var(--small-line-height);
+  letter-spacing: var(--normal-character-spacing);
+  color: var(--dark-blue-color);
+}
+
+.body-secondary-info-14pt {
+  font-family: var(--primary-font-family);
+  font-style: var(--normal-font-style);
+  font-weight: var(--normal-font-weight);
+  font-size: var(--small-font-size);
+  line-height: var(--small-line-height);
+  letter-spacing: var(--normal-character-spacing);
+  color: var(--grey-color);
+}
+
+.body-regular-14 {
+  font-family: var(--primary-font-family);
+  font-style: var(--normal-font-style);
+  font-weight: var(--normal-font-weight);
+  font-size: var(--small-font-size);
+  line-height: var(--small-line-height);
+  letter-spacing: var(--normal-character-spacing);
+  color: var(--dark-blue-color);
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.capitalize{
+  text-transform: capitalize;
 }

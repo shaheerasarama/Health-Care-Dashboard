@@ -1,0 +1,45 @@
+header{
+    background-color: var(--white-color);
+    border-radius: 70px;
+    margin-top: 18px;
+    box-shadow: 0 0 10px var(--white-color);
+    margin-inline: 18px;
+    padding: 5px 0;
+}
+header .logo img{
+    height: 30px;
+}
+ul{
+    margin: 0;
+}
+ul li{
+    margin-right: 20px;
+}
+
+ul li.active{
+    background-color: var(--active-bg-dark-color);
+    border-radius: 41px;
+    padding: 5px 10px;
+}
+ul span{
+    padding-left: 9px;
+}
+.profile{
+    height: 50px;
+}
+.profile .profileText{
+    margin-left: 5px;
+    height: 25px;
+}
+.profileInfo{
+    padding-right: 10px;
+}
+.profile h2{
+    margin-bottom: -5px;
+}
+.profileInfo{
+    border-right: 1px solid var(--light-grey-border-color);
+}
+.settingImg{
+    margin: 0 12px;
+}
