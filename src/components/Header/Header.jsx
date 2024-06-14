@@ -11,7 +11,7 @@ function Header() {
             <div className={`${styles.menuIcon}`}>
               <img src="sources/images/menuIcon.png" alt="" />
             </div>
-            <img src="sources/images/HealthCareDashboard/TestLogo.png" alt="" />
+            <img className="logoImg" src="sources/images/HealthCareDashboard/TestLogo.png" alt="" />
           </div>
           <ul className={`flex ${styles.navLink}`} id="navLinks">
             <li>

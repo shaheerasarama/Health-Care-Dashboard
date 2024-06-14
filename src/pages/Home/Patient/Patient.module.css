@@ -1,0 +1,23 @@
+.patientPersonal {
+  width: 367px;
+}
+.patientPersonalInfo {
+  text-align: center;
+}
+.patientPersonal ul {
+  margin-top: 32px;
+}
+.listItemFlex {
+  justify-content: start;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+button {
+  width: 220px;
+  display: block;
+  margin: auto;
+  border-radius: 41px;
+  background-color: var(--active-bg-dark-color);
+  border: none;
+  padding: 11px 20px;
+}

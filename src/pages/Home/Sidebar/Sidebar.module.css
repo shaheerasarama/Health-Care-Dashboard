@@ -1,0 +1,17 @@
+.sidebar{
+    width: 367px;
+    position: relative;
+}
+.patientsList{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.patientitemInfo{
+    padding-left: 12px;
+}
+.patientitemInfo h4{
+    margin-bottom: 0px;
+}
+.patientitem{
+    margin-bottom: 32px;
+}

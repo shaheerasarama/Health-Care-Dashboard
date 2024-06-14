@@ -1,0 +1,36 @@
+.metricCard{
+    width: 228px;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    justify-content: start;
+    gap: 21px;
+}
+.metricCard:nth-child(1){
+    background-color: #E0F3FA;   
+}
+.metricCard:nth-child(2){
+    background-color: #FFE6E9;   
+}
+.metricCard:nth-child(3){
+    background-color: #FFE6F1;   
+}
+.metricCard img{
+    width: 96px;
+    margin-bottom: 16px;
+}
+.metricCard h5{
+    margin-bottom: 0;
+}
+.triangleContainer{
+    justify-content: start;
+    gap: 8px;
+}
+.triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}

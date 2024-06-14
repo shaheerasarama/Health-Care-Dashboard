@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './LayoutContainer.module.css'
-export default function LayoutContainer({children}) {
+export default function LayoutContainer({className,children}) {
   return (
-    <div className={styles.container}>{children}</div>
+    <div className={ `${styles.container} ${className}` }>{children}</div>
   )
 }

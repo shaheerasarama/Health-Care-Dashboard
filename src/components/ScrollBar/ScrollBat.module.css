@@ -1,0 +1,15 @@
+.scrollContainer{
+    position: absolute;
+    background-color: var(--light-grey-border-color);
+    width: 6px;
+    right: 0;
+    top: 75px;
+    border-radius: 3px;
+}
+.scrollThumb{
+    position: absolute;
+    background-color: var(--dark-blue-color);
+    width: 6px;
+    border-radius: 3px;
+
+}

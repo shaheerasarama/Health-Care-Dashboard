@@ -6,38 +6,42 @@ header {
   border-radius: 70px;
 }
 nav {
-  padding: 5px 0;
+  padding: 12px 0;
 }
-header .logo img {
-  height: 30px;
+header .logo{
+  width: 210.58px;
+  justify-content: start;
 }
 .menuIcon {
   display: none;
 }
-ul {
+header ul {
   margin: 0;
+  width: 662.59px;
 }
-ul li {
-  margin-right: 20px;
-}
+/* ul li {
+ margin-right: 20px; 
+} 
+*/
 
-ul li.active {
+header ul li.active {
   background-color: var(--active-bg-dark-color);
   border-radius: 41px;
-  padding: 5px 10px;
+  padding: 11px 16px;
 }
-ul span {
+header ul span {
   padding-left: 9px;
 }
 .profile {
   height: 50px;
+  width: 240.66px;
 }
 .profile .profileText {
   margin-left: 5px;
   height: 32px;
 }
 .profileInfo {
-  padding-right: 5px;
+  padding-right: 8px;
   border-right: 1px solid var(--light-grey-border-color);
 }
 .profile h2 {
@@ -54,17 +58,18 @@ ul span {
   .menuIcon {
     display: block;
   }
+  .menuIcon img{
+    display: inline;
+    width: 50px;
+  }
   .navLink {
     flex-wrap: wrap;
     flex-direction: column;
     display: none;
   }
 }
-@media (min-width: 769px) and (max-width: 1112px) {
-  .navLink li {
-    margin-right: 10px;
-  }
-  .profileInfo {
-    padding-left: 0;
+@media (min-width: 769px) and (max-width: 1072px) {
+  ul li {
+    margin-right: 15px;
   }
 }

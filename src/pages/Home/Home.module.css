@@ -1,0 +1,11 @@
+.mainContainer{
+    align-items: start;
+    justify-content: start;
+    gap: 33px;
+    margin-top: 32px;
+}
+.mainContainer > div{
+    background-color: var(--white-color);
+    border-radius: 16px;
+    padding: 20px 15px;
+}
