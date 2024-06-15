@@ -1,15 +1,15 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import Chart from "./Chart/Chart";
-import HealthMetrics from "./HealthMetrics/HealthMetrics";
 import DiagnosticList from "./DiagnosticList/DiagnosticList";
 import styles from './Main.module.css';
+import { PatientsContext } from './../Home';
 
 export default function Main() {
+  const { singlePatient } = useContext(PatientsContext);
   return (
     <div className={styles.main}>
-      <Chart />
-      <HealthMetrics />
-      <DiagnosticList />
+      <Chart singlePatient={singlePatient}/>
+      <DiagnosticList singlePatient={singlePatient}/>
     </div>
   );
 }

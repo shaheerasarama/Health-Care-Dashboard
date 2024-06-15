@@ -1,6 +1,9 @@
 .sidebar{
     width: 367px;
     position: relative;
+    background-color: var(--white-color);
+    border-radius: 16px;
+    padding: 20px 15px;
 }
 .patientsList{
     margin-top: 20px;

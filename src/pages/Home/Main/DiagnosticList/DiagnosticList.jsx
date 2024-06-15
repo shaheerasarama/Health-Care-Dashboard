@@ -1,14 +1,12 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import styles from './DiagnosticList.module.css';
-import { PatientsContext } from './../../Home';
 import ScrollBar from '../../../../components/ScrollBar/ScrollBar';
 
-export default function DiagnosticList() {
-  const { singlePatient } = useContext(PatientsContext);
+export default function DiagnosticList({singlePatient}) {
   let diagnostic = singlePatient["diagnostic_list"];
   
   return (
-    <div>
+    <div style={{marginTop:'30px'}}>
       <h3 className="card-title-24pt capitalize">Diagnostic List</h3>
       <div className={styles.tableContainer}>
         <ScrollBar containerHeight="210px" thumbHeight="100px"/>

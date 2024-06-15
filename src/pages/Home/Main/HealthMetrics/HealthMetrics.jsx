@@ -1,9 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import styles from "./HealthMetrics.module.css";
-import { PatientsContext } from './../../Home';
 
-export default function HealthMetrics() {
-  const {singlePatient} = useContext(PatientsContext);
+export default function HealthMetrics({singlePatient}) {
   let metrics = singlePatient["diagnosis_history"][0];
   return (
     <>

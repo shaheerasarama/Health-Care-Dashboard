@@ -1,3 +1,8 @@
 .main{
     width: 767px;
 }
+.main > div{
+    border-radius: 16px;
+    padding: 20px 15px;
+    background-color: var(--white-color);
+}
