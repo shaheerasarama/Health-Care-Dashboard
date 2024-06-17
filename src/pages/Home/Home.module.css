@@ -1,6 +1,6 @@
 .mainContainer{
     align-items: start;
-    justify-content: start;
+    justify-content: space-between;
     gap: 33px;
     margin-top: 32px;
 }

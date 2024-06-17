@@ -1,5 +1,6 @@
 .main{
-    width: 767px;
+    /* width: 767px; */
+    flex-grow: 1;
 }
 .main > div{
     border-radius: 16px;

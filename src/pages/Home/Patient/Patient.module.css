@@ -1,3 +1,6 @@
+.PatientSection{
+  width: 30%;
+}
 .PatientSection > div{
   background-color: var(--white-color);
   border-radius: 16px;

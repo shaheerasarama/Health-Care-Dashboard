@@ -5,7 +5,7 @@ export default function HealthMetrics({singlePatient}) {
   let metrics = singlePatient["diagnosis_history"][0];
   return (
     <>
-      <div className={`${styles.metricsCards} flex`}>
+      <div className={`${styles.metricsCards} flexGap`}>
         <div className={`${styles.metricCard}`}>
           <img
             src="sources/images/HealthCareDashboard/respiratory rate@2x.png"

@@ -46,13 +46,13 @@ export default function Home() {
   }
   return (
     <>
-      <LayoutContainer className={`${styles.mainContainer} flex`}>
         <PatientsContext.Provider value={{ patients, singlePatient }}>
+      <LayoutContainer className={`${styles.mainContainer} flex`}>
           <Sidebar />
           <Main />
           <Patient />
-        </PatientsContext.Provider>
       </LayoutContainer>
+        </PatientsContext.Provider>
     </>
   );
 }
